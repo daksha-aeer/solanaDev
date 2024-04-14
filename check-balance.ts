@@ -3,7 +3,7 @@ import { Connection, LAMPORTS_PER_SOL, PublicKey } from "@solana/web3.js";
 //const publicKey = new PublicKey("J3nDQQQza8sWydofLXoToZ7nJxqJ6eR9d61GjtFMYird");
 const sharedKey = process.argv[2];
 const publicKey = new PublicKey(sharedKey);
-const connection = new Connection("https://api.mainnet-beta.solana.com/", "confirmed");
+const connection = new Connection("https://api.devnet.solana.com/", "confirmed");
 
 const balanceInLamports = await connection.getBalance(publicKey);
 
