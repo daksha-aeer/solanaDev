@@ -1,7 +1,6 @@
 {
   "name": "generate-keypair",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,8 +9,18 @@
   "license": "ISC",
   "dependencies": {
     "@solana-developers/helpers": "^2.3.0",
-    "@solana/web3.js": "^1.91.4",
+    "@solana/web3.js": "^1.92.3",
     "esrun": "^3.2.26",
     "typescript": "^5.4.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daksha-aeer/solanaDev.git"
+  },
+  "bugs": {
+    "url": "https://github.com/daksha-aeer/solanaDev/issues"
+  },
+  "homepage": "https://github.com/daksha-aeer/solanaDev#readme",
+  "author": "",
+  "description": ""
 }

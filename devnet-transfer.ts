@@ -24,7 +24,7 @@ transaction.add(sendSolInstructions);
 const instruction = new web3.TransactionInstruction({
   keys: [
     {
-      pubkey:receiver,
+      pubkey: receiver,
       isSigner: false,
       isWritable: true
     },
