@@ -1,1 +1,1 @@
-Getting some experience with Solana
+Some basic Solana programs 
